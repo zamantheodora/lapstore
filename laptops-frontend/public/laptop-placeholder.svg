@@ -1,0 +1,21 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="860" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect x="170" y="130" width="860" height="460" rx="20" fill="url(#screen)"/>
+  <rect x="190" y="150" width="820" height="420" rx="10" fill="#111827"/>
+  <rect x="80" y="590" width="1040" height="40" rx="20" fill="#475569"/>
+  <rect x="500" y="590" width="200" height="12" rx="6" fill="#94A3B8"/>
+  <circle cx="600" cy="120" r="6" fill="#64748B"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="34" font-weight="600">
+    Laptop Image Unavailable
+  </text>
+</svg>

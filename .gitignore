@@ -1,0 +1,51 @@
+# ------------------------------
+# Global / OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.pem
+
+# ------------------------------
+# Secrets / env
+# ------------------------------
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# ------------------------------
+# Node / Next.js (root + frontend)
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+laptops-frontend/node_modules/
+laptops-frontend/.next/
+laptops-frontend/out/
+laptops-frontend/build/
+laptops-frontend/coverage/
+laptops-frontend/.vercel/
+laptops-frontend/*.tsbuildinfo
+laptops-frontend/next-env.d.ts
+
+# ------------------------------
+# Python / FastAPI / Poetry (backend)
+# ------------------------------
+fastapi-products-backend/.venv/
+fastapi-products-backend/venv/
+fastapi-products-backend/__pycache__/
+fastapi-products-backend/**/*.py[cod]
+fastapi-products-backend/.pytest_cache/
+fastapi-products-backend/.mypy_cache/
+fastapi-products-backend/.ruff_cache/
+fastapi-products-backend/.coverage
+fastapi-products-backend/htmlcov/
+
+# ------------------------------
+# IDE / local tooling
+# ------------------------------
+.vscode/
+.idea/

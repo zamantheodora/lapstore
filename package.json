@@ -1,0 +1,14 @@
+{
+  "name": "laptops-dev-workspace",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix laptops-frontend",
+    "dev:backend": "poetry --directory fastapi-products-backend run uvicorn app.main:app --reload --app-dir fastapi-products-backend --env-file fastapi-products-backend/.env",
+    "dev:all": "concurrently -n frontend,backend -c blue,green \"npm run dev --prefix laptops-frontend\" \"poetry --directory fastapi-products-backend run uvicorn app.main:app --reload --app-dir fastapi-products-backend --env-file fastapi-products-backend/.env\"",
+    "dev:all:free": "bash ./scripts/dev-all-free.sh",
+    "stop:all": "bash ./scripts/stop-all-dev.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

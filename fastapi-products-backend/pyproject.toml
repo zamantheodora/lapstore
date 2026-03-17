@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fastapi-products-backend"
+version = "0.1.0"
+description = "FastAPI backend with MySQL and SQLAlchemy"
+authors = ["You <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = { extras = ["standard"], version = "^0.30.0" }
+sqlalchemy = "^2.0.0"
+pydantic = "^2.7.0"
+pydantic-settings = "^2.3.0"
+python-dotenv = "^1.0.1"
+httpx = "^0.27.0"
+# MySQL driver
+pymysql = "^1.1.1"
+cryptography = "^46.0.5"
+openai = "^1.40.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
