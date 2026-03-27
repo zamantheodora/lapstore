@@ -167,25 +167,25 @@ npm run stop:all
 
 ## Screenshots
 
-Store screenshots in frontend public assets, for example:
+### Homepage
 
-`laptops-frontend/public/screenshots/`
+![Homepage](screenshots/homepage.png)
 
-Suggested screenshots:
+### Laptop Catalog
 
-- Homepage
-- Product details
-- Compare page
-- Finder wizard
-- Admin dashboard
-- Backend Swagger (`/docs`)
+![Catalog](screenshots/catalog.png)
 
-Example markdown:
+### Product Page
 
-```md
-![Homepage](./laptops-frontend/public/screenshots/homepage.png)
-![Backend Swagger](./laptops-frontend/public/screenshots/swagger-backend.png)
-```
+![Product](screenshots/product-page.png)
+
+### Laptop Finder
+
+![Finder](screenshots/laptop-finder.png)
+
+### Compare
+
+![Compare](screenshots/compare.png)
 
 ---
 
